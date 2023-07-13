@@ -1,0 +1,3 @@
+$(eval $(call addlib,appvirtioringerror))
+
+APPVIRTIORINGERROR_SRCS-y += $(APPVIRTIORINGERROR_BASE)/server.c
