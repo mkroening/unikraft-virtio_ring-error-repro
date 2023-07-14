@@ -28,11 +28,15 @@ It may trigger more or less often depending on:
 
 # How to Reproduce
 
+0. Make sure to check out the submodules for Unikraft and lwIP sources.
+   ```bash
+   git submodule init
+   ```
 1. Setup the TAP device.
    ```bash
    sudo ./setup_tap.sh
    ```
-2. Start the server using Unikraft (using KraftKit).
+2. Start the server using Unikraft.
    ```bash
    ./run_server.sh
    ```
